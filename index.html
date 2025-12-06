@@ -4,11 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Domingos Jewelry</title>
-  <!-- AdSense Script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4596772914164548" crossorigin="anonymous"></script>
-  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -94,9 +91,41 @@
       .lang-select { margin-right: 0.3rem;}
       .nav-link { margin-right: 0.4rem; font-size: 1em;}
     }
+    /* Barra de noticias */
+    .news-bar {
+      width: 100%;
+      background: #ffe5a2;
+      color: #53380a;
+      padding: 6px 0;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 600;
+      border-bottom: 2px solid #c2a05a;
+      z-index: 9999;
+      position: relative;
+    }
+    .news-bar a {
+      color: #8B4900;
+      text-decoration: underline;
+      margin-left: 10px;
+    }
   </style>
 </head>
 <body>
+  <!-- Barra de Notícias Joalheria -->
+  <div class="news-bar">
+    <marquee behavior="scroll" direction="left" scrollamount="4">
+      Setor global de joias projeta crescimento sólido até 2035 |
+      Sustentabilidade em alta: joalherias apostam em metais reciclados |
+      Joias personalizadas lideram tendências de mercado |
+      Alta joalheria valoriza tradição e inovação |
+      Diamantes de laboratório e origem ética em destaque |
+      Mercado brasileiro segue em expansão |
+      Mix de texturas e design maximalista são tendências |
+      <a href="https://forbes.com.br/noticias-sobre/joalheria/" target="_blank">Veja fontes e tendências &rarr;</a>
+    </marquee>
+  </div>
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <div class="container">
