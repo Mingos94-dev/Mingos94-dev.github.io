@@ -3,10 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Domingos Jewelry</title>
+  <title>Domingos Jewelry - Luxury Handcrafted Jewelry in Switzerland | Rings, Necklaces & Custom Designs</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Domingos Jewelry - Handcrafted luxury jewelry in Nyon, Switzerland. Custom engagement rings, diamond necklaces, gold bracelets, and bespoke designs inspired by European tradition.">
+  <meta name="keywords" content="luxury jewelry Switzerland, custom engagement rings, handcrafted jewelry, diamond rings, gold necklaces, Nyon jewelry, wedding bands, fine jewelry, European jewelry">
+  <meta name="author" content="Domingos Jewelry">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Domingos Jewelry - Timeless Jewelry for Every Moment">
+  <meta property="og:description" content="Explore handcrafted luxury jewelry inspired by European tradition. Custom rings, necklaces, and bracelets in Nyon, Switzerland.">
+  <meta property="og:image" content="https://mingos94-dev.github.io/images/hero-jewelry.jpg">
+  <meta property="og:url" content="https://mingos94-dev.github.io/">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Domingos Jewelry - Luxury Handcrafted Jewelry">
+  <meta name="twitter:description" content="Handcrafted luxury jewelry in Switzerland. Custom designs, engagement rings, and fine jewelry.">
+  <meta name="twitter:image" content="https://mingos94-dev.github.io/images/hero-jewelry.jpg">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://mingos94-dev.github.io/">
+  
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4596772914164548" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "JewelryStore",
+    "name": "Domingos Jewelry",
+    "image": "https://mingos94-dev.github.io/images/hero-jewelry.jpg",
+    "description": "Handcrafted luxury jewelry in Nyon, Switzerland. Custom engagement rings, diamond necklaces, and bespoke designs.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nyon",
+      "addressCountry": "Switzerland"
+    },
+    "telephone": "+41762421297",
+    "email": "domingosrfpereira.94@gmail.com",
+    "url": "https://mingos94-dev.github.io/",
+    "priceRange": "$$$",
+    "openingHours": "Mo-Fr 09:00-18:00",
+    "sameAs": [
+      "https://www.instagram.com/domingosjewelry",
+      "https://www.linkedin.com/company/domingosjewelry"
+    ]
+  }
+  </script>
+  
   <style>
     body {
       font-family: 'Montserrat', Arial, sans-serif;
@@ -108,6 +157,21 @@
       text-decoration: underline;
       margin-left: 10px;
     }
+    .category-badge {
+      display: inline-block;
+      background: #C2A05A;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 15px;
+      font-size: 0.85rem;
+      margin: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .category-badge:hover {
+      background: #a08748;
+      color: white;
+    }
   </style>
 </head>
 <body>
@@ -149,9 +213,26 @@
   <!-- Hero Section -->
   <section class="hero-section d-flex">
     <div class="container hero-content">
-      <h1 id="heroTitle">Timeless Jewelry for Every Moment</h1>
-      <p id="heroSubtitle">Handcrafted luxury pieces, inspired by European tradition.</p>
+      <h1 id="heroTitle">Luxury Handcrafted Jewelry in Switzerland</h1>
+      <p id="heroSubtitle">Custom engagement rings, diamond necklaces, and timeless pieces inspired by European tradition.</p>
       <a href="#collections" class="btn btn-warning btn-lg mt-4" id="shopBtn">Shop Collection</a>
+    </div>
+  </section>
+
+  <!-- SEO Categories Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4" id="categoriesTitle">Explore by Category</h2>
+    <div class="text-center">
+      <a href="#rings" class="category-badge" id="catEngagement">Engagement Rings</a>
+      <a href="#rings" class="category-badge" id="catWedding">Wedding Bands</a>
+      <a href="#necklaces" class="category-badge" id="catNecklaces">Diamond Necklaces</a>
+      <a href="#bracelets" class="category-badge" id="catBracelets">Gold Bracelets</a>
+      <a href="#earrings" class="category-badge" id="catEarrings">Luxury Earrings</a>
+      <a href="#custom" class="category-badge" id="catCustom">Custom Jewelry</a>
+      <a href="#vintage" class="category-badge" id="catVintage">Vintage Jewelry</a>
+      <a href="#modern" class="category-badge" id="catModern">Modern Designs</a>
+      <a href="#men" class="category-badge" id="catMen">Men's Jewelry</a>
+      <a href="#women" class="category-badge" id="catWomen">Women's Jewelry</a>
     </div>
   </section>
 
@@ -160,35 +241,35 @@
     <h2 class="text-center mb-4" id="collectionsTitle">Featured Collections</h2>
     <div class="row g-4">
       <!-- Rings -->
-      <div class="col-md-4">
+      <div class="col-md-4" id="rings">
         <div class="card shadow-sm">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" class="collection-img" alt="Rings">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" class="collection-img" alt="Luxury Engagement Rings and Wedding Bands">
           <div class="card-body text-center">
-            <h5 class="card-title" id="ringTitle">Rings</h5>
-            <p class="card-text" id="ringDesc">Elegant rings crafted with exquisite details.</p>
-            <a href="#" class="btn btn-outline-warning" id="ringBtn">View Rings</a>
+            <h3 class="card-title" id="ringTitle">Rings</h3>
+            <p class="card-text" id="ringDesc">Elegant engagement rings and wedding bands crafted with exquisite details.</p>
+            <a href="#rings" class="btn btn-outline-warning" id="ringBtn">View Rings</a>
           </div>
         </div>
       </div>
       <!-- Necklaces -->
-      <div class="col-md-4">
+      <div class="col-md-4" id="necklaces">
         <div class="card shadow-sm">
-          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" class="collection-img" alt="Necklaces">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" class="collection-img" alt="Diamond and Gold Necklaces">
           <div class="card-body text-center">
-            <h5 class="card-title" id="necklaceTitle">Necklaces</h5>
-            <p class="card-text" id="necklaceDesc">Timeless necklaces to elevate any look.</p>
-            <a href="#" class="btn btn-outline-warning" id="necklaceBtn">View Necklaces</a>
+            <h3 class="card-title" id="necklaceTitle">Necklaces</h3>
+            <p class="card-text" id="necklaceDesc">Timeless diamond and gold necklaces to elevate any look.</p>
+            <a href="#necklaces" class="btn btn-outline-warning" id="necklaceBtn">View Necklaces</a>
           </div>
         </div>
       </div>
       <!-- Bracelets -->
-      <div class="col-md-4">
+      <div class="col-md-4" id="bracelets">
         <div class="card shadow-sm">
-          <img src="https://images.unsplash.com/photo-1455656678494-4d1dcd2aed93?auto=format&fit=crop&w=800&q=80" class="collection-img" alt="Bracelets">
+          <img src="https://images.unsplash.com/photo-1455656678494-4d1dcd2aed93?auto=format&fit=crop&w=800&q=80" class="collection-img" alt="Gold and Silver Bracelets">
           <div class="card-body text-center">
-            <h5 class="card-title" id="braceletTitle">Bracelets</h5>
-            <p class="card-text" id="braceletDesc">Graceful bracelets for every occasion.</p>
-            <a href="#" class="btn btn-outline-warning" id="braceletBtn">View Bracelets</a>
+            <h3 class="card-title" id="braceletTitle">Bracelets</h3>
+            <p class="card-text" id="braceletDesc">Graceful gold and silver bracelets for every occasion.</p>
+            <a href="#bracelets" class="btn btn-outline-warning" id="braceletBtn">View Bracelets</a>
           </div>
         </div>
       </div>
@@ -199,12 +280,12 @@
   <section class="container my-5 py-4" id="about">
     <div class="row align-items-center">
       <div class="col-md-5 text-center">
-        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Jeweler" class="about-img">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Master Jeweler Crafting Custom Jewelry" class="about-img">
       </div>
       <div class="col-md-7">
         <h2 id="aboutTitle">About Domingos Jewelry</h2>
         <p id="aboutText">
-          Each piece is a celebration of craftsmanship and timeless elegance. Our collections are inspired by the rich history of European jewelry, blending classic artistry with modern sensibilities.
+          Each piece is a celebration of craftsmanship and timeless elegance. Our collections are inspired by the rich history of European jewelry, blending classic artistry with modern sensibilities. Based in Nyon, Switzerland, we specialize in custom engagement rings, diamond necklaces, and bespoke fine jewelry.
         </p>
         <a href="#contact" class="btn btn-outline-dark mt-3" id="aboutBtn">Learn More</a>
       </div>
@@ -213,15 +294,15 @@
 
   <!-- Contact Section -->
   <section class="container my-5" id="contact">
-    <h2 class="text-center mb-4" id="contactTitle">Contact</h2>
+    <h2 class="text-center mb-4" id="contactTitle">Contact Us</h2>
     <div class="row justify-content-center">
       <div class="col-md-6 text-center">
         <p><strong>Email:</strong> <a href="mailto:domingosrfpereira.94@gmail.com">domingosrfpereira.94@gmail.com</a></p>
         <p><strong>Phone:</strong> <a href="tel:+41762421297">+41 76 242 1297</a></p>
         <p><strong>Location:</strong> Nyon, Switzerland</p>
         <div>
-          <a href="#" class="me-3"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/linkedin.svg" alt="LinkedIn" width="28"></a>
-          <a href="#" class="me-3"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/instagram.svg" alt="Instagram" width="28"></a>
+          <a href="#" class="me-3" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/linkedin.svg" alt="LinkedIn" width="28"></a>
+          <a href="#" class="me-3" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/instagram.svg" alt="Instagram" width="28"></a>
         </div>
       </div>
     </div>
@@ -232,11 +313,13 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-12">
-          <p>&copy; 2025 Domingos Jewelry. All rights reserved.</p>
+          <p>&copy; 2026 Domingos Jewelry. All rights reserved.</p>
           <p>
             <a href="#about" id="footerAbout">About</a> |
             <a href="#collections" id="footerCollections">Collections</a> |
-            <a href="#contact" id="footerContact">Contact</a>
+            <a href="#contact" id="footerContact">Contact</a> |
+            <a href="#custom" id="footerCustom">Custom Jewelry</a> |
+            <a href="#blog" id="footerBlog">Blog</a>
           </p>
         </div>
       </div>
@@ -249,59 +332,87 @@
     const content = {
       en: {
         menu: [
-          { text: "Jewelry", href: "#collections" },
+          { text: "Collections", href: "#collections" },
+          { text: "Engagement Rings", href: "#rings" },
+          { text: "Custom Jewelry", href: "#custom" },
           { text: "About", href: "#about" },
-          { text: "Contact", href: "#contact" },
-          { text: "Collections", href: "#collections" }
+          { text: "Contact", href: "#contact" }
         ],
-        heroTitle: "Timeless Jewelry for Every Moment",
-        heroSubtitle: "Handcrafted luxury pieces, inspired by European tradition.",
+        heroTitle: "Luxury Handcrafted Jewelry in Switzerland",
+        heroSubtitle: "Custom engagement rings, diamond necklaces, and timeless pieces inspired by European tradition.",
         shopBtn: "Shop Collection",
+        categoriesTitle: "Explore by Category",
+        catEngagement: "Engagement Rings",
+        catWedding: "Wedding Bands",
+        catNecklaces: "Diamond Necklaces",
+        catBracelets: "Gold Bracelets",
+        catEarrings: "Luxury Earrings",
+        catCustom: "Custom Jewelry",
+        catVintage: "Vintage Jewelry",
+        catModern: "Modern Designs",
+        catMen: "Men's Jewelry",
+        catWomen: "Women's Jewelry",
         collectionsTitle: "Featured Collections",
         ringTitle: "Rings",
-        ringDesc: "Elegant rings crafted with exquisite details.",
+        ringDesc: "Elegant engagement rings and wedding bands crafted with exquisite details.",
         ringBtn: "View Rings",
         necklaceTitle: "Necklaces",
-        necklaceDesc: "Timeless necklaces to elevate any look.",
+        necklaceDesc: "Timeless diamond and gold necklaces to elevate any look.",
         necklaceBtn: "View Necklaces",
         braceletTitle: "Bracelets",
-        braceletDesc: "Graceful bracelets for every occasion.",
+        braceletDesc: "Graceful gold and silver bracelets for every occasion.",
         braceletBtn: "View Bracelets",
         aboutTitle: "About Domingos Jewelry",
-        aboutText: "Each piece is a celebration of craftsmanship and timeless elegance. Our collections are inspired by the rich history of European jewelry, blending classic artistry with modern sensibilities.",
+        aboutText: "Each piece is a celebration of craftsmanship and timeless elegance. Our collections are inspired by the rich history of European jewelry, blending classic artistry with modern sensibilities. Based in Nyon, Switzerland, we specialize in custom engagement rings, diamond necklaces, and bespoke fine jewelry.",
         aboutBtn: "Learn More",
-        contactTitle: "Contact",
+        contactTitle: "Contact Us",
         footerAbout: "About",
         footerCollections: "Collections",
-        footerContact: "Contact"
+        footerContact: "Contact",
+        footerCustom: "Custom Jewelry",
+        footerBlog: "Blog"
       },
       fr: {
         menu: [
-          { text: "Bijoux", href: "#collections" },
+          { text: "Collections", href: "#collections" },
+          { text: "Bagues de Fiançailles", href: "#rings" },
+          { text: "Bijoux Personnalisés", href: "#custom" },
           { text: "À propos", href: "#about" },
-          { text: "Contact", href: "#contact" },
-          { text: "Collections", href: "#collections" }
+          { text: "Contact", href: "#contact" }
         ],
-        heroTitle: "Des bijoux intemporels pour chaque moment",
-        heroSubtitle: "Des pièces de luxe faites à la main, inspirées par la tradition européenne.",
+        heroTitle: "Bijoux de Luxe Faits à la Main en Suisse",
+        heroSubtitle: "Bagues de fiançailles personnalisées, colliers en diamant et pièces intemporelles inspirées de la tradition européenne.",
         shopBtn: "Voir la collection",
+        categoriesTitle: "Explorer par catégorie",
+        catEngagement: "Bagues de Fiançailles",
+        catWedding: "Alliances",
+        catNecklaces: "Colliers Diamant",
+        catBracelets: "Bracelets Or",
+        catEarrings: "Boucles d'Oreilles Luxe",
+        catCustom: "Bijoux Personnalisés",
+        catVintage: "Bijoux Vintage",
+        catModern: "Designs Modernes",
+        catMen: "Bijoux Homme",
+        catWomen: "Bijoux Femme",
         collectionsTitle: "Collections en vedette",
         ringTitle: "Bagues",
-        ringDesc: "Bagues élégantes fabriquées avec des détails exquis.",
+        ringDesc: "Bagues de fiançailles et alliances élégantes fabriquées avec des détails exquis.",
         ringBtn: "Voir les bagues",
         necklaceTitle: "Colliers",
-        necklaceDesc: "Colliers intemporels pour sublimer chaque tenue.",
+        necklaceDesc: "Colliers en diamant et or intemporels pour sublimer chaque tenue.",
         necklaceBtn: "Voir les colliers",
         braceletTitle: "Bracelets",
-        braceletDesc: "Bracelets gracieux pour toutes les occasions.",
+        braceletDesc: "Bracelets en or et argent gracieux pour toutes les occasions.",
         braceletBtn: "Voir les bracelets",
         aboutTitle: "À propos de Domingos Jewelry",
-        aboutText: "Chaque pièce est une célébration du savoir-faire et de l'élégance intemporelle. Nos collections s'inspirent de la riche histoire de la joaillerie européenne, mêlant art classique et modernité.",
+        aboutText: "Chaque pièce est une célébration du savoir-faire et de l'élégance intemporelle. Nos collections s'inspirent de la riche histoire de la joaillerie européenne, mêlant art classique et modernité. Basés à Nyon, en Suisse, nous sommes spécialisés dans les bagues de fiançailles personnalisées, les colliers en diamant et la haute joaillerie sur mesure.",
         aboutBtn: "En savoir plus",
-        contactTitle: "Contact",
+        contactTitle: "Contactez-nous",
         footerAbout: "À propos",
         footerCollections: "Collections",
-        footerContact: "Contact"
+        footerContact: "Contact",
+        footerCustom: "Bijoux Personnalisés",
+        footerBlog: "Blog"
       }
     };
 
@@ -318,6 +429,17 @@
       document.getElementById('heroTitle').textContent = c.heroTitle;
       document.getElementById('heroSubtitle').textContent = c.heroSubtitle;
       document.getElementById('shopBtn').textContent = c.shopBtn;
+      document.getElementById('categoriesTitle').textContent = c.categoriesTitle;
+      document.getElementById('catEngagement').textContent = c.catEngagement;
+      document.getElementById('catWedding').textContent = c.catWedding;
+      document.getElementById('catNecklaces').textContent = c.catNecklaces;
+      document.getElementById('catBracelets').textContent = c.catBracelets;
+      document.getElementById('catEarrings').textContent = c.catEarrings;
+      document.getElementById('catCustom').textContent = c.catCustom;
+      document.getElementById('catVintage').textContent = c.catVintage;
+      document.getElementById('catModern').textContent = c.catModern;
+      document.getElementById('catMen').textContent = c.catMen;
+      document.getElementById('catWomen').textContent = c.catWomen;
       document.getElementById('collectionsTitle').textContent = c.collectionsTitle;
       document.getElementById('ringTitle').textContent = c.ringTitle;
       document.getElementById('ringDesc').textContent = c.ringDesc;
@@ -335,6 +457,8 @@
       document.getElementById('footerAbout').textContent = c.footerAbout;
       document.getElementById('footerCollections').textContent = c.footerCollections;
       document.getElementById('footerContact').textContent = c.footerContact;
+      document.getElementById('footerCustom').textContent = c.footerCustom;
+      document.getElementById('footerBlog').textContent = c.footerBlog;
     }
 
     // Init language
